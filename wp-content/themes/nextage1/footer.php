@@ -16,4 +16,5 @@
 <script src="<?php echo get_bloginfo('template_directory')?>/js/lightbox.min.js"></script>
 <script src="<?php echo get_bloginfo('template_directory')?>/js/functions.js"></script>
 </body>
+<?php wp_head(); ?>
 </html>

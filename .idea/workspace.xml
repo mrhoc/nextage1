@@ -1,7 +1,955 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345eedfe-2759-4f87-adc4-dba5c06f50c0" name="Default Changelist" comment="" />
+    <list default="true" id="345eedfe-2759-4f87-adc4-dba5c06f50c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax/class-shortcode-filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax/class-shortcode-filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax/class-yoast-plugin-conflict-ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax/class-yoast-plugin-conflict-ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/capabilities/class-register-capabilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/capabilities/class-register-capabilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-dev-server-location.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-dev-server-location.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-seo-location.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-seo-location.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-recommended-replace-vars.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-recommended-replace-vars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-user-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-user-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-bulk-editor-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-bulk-editor-list-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-database-proxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-database-proxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-export.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-expose-shortlinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-expose-shortlinks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-gutenberg-compatibility.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-gutenberg-compatibility.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-meta-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-meta-columns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-my-yoast-proxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-my-yoast-proxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-option-tab.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-option-tab.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-option-tabs-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-option-tabs-formatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-option-tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-option-tabs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-plugin-conflict.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-plugin-conflict.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-premium-popup.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-premium-popup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-premium-upsell-admin-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-premium-upsell-admin-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-primary-term-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-primary-term-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-schema-person-upgrade-notification.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-schema-person-upgrade-notification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-suggested-plugins.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-suggested-plugins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-wincher-dashboard-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-columns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-dashboard-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-dashboard-widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-input-validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-input-validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-network-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-network-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-network-settings-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-network-settings-api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-notification-center.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-notification-center.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-notification.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-notification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-notifications.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-notifications.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-plugin-conflict.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-plugin-conflict.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/filters/class-abstract-post-filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/filters/class-abstract-post-filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-metabox-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-metabox-formatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-post-metabox-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-post-metabox-formatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-term-metabox-formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/formatter/class-term-metabox-formatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-redirect-nopremium.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-redirect-nopremium.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/class-import-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/class-import-settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-import-aioseo-v4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-import-aioseo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-import-aioseo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-import-seo-framework.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-import-seo-framework.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-import-seopressor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-import-seopressor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-importers.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/import/plugins/class-importers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-admin-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-admin-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-base-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-base-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-network-admin-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/menu/class-network-admin-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-analysis-inclusive-language.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-editor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-section-inclusive-language.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/notifiers/dismissible-notification.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/notifiers/dismissible-notification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/network.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/network.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/redirects.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/tools.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/roles/class-role-manager-factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/roles/class-role-manager-factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/roles/class-role-manager-vip.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/roles/class-role-manager-vip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-columns.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-columns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-fields.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-addon-data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-default-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-default-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-plugin-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-plugin-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-server-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-server-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-settings-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-settings-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-theme-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking-theme-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/tracking/class-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-feature-toggles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-integration-toggles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/class-yoast-integration-toggles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/js-templates-primary-term.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/js-templates-primary-term.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/licenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/partial-notifications-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/partial-notifications-template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/redirects.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/dashboard/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/dashboard/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/dashboard/first-time-configuration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/dashboard/site-analysis.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/dashboard/site-analysis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/network/crawl-settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/network/features.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/network/features.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/network/integrations.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/network/integrations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/import-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/import-seo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/wpseo-export.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/tool/wpseo-export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tool-import-export.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tool-import-export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/user-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/user-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/watchers/class-slug-change-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/watchers/class-slug-change-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/academy-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/academy-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/admin-global-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/admin-global-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/adminbar-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/adminbar-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/ai-generator-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/ai-generator-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/alerts-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/alerts-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/black-friday-banner-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/black-friday-banner-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/dashboard-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/dashboard-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/edit-page-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/edit-page-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/elementor-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/elementor-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/featured-image-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/featured-image-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/filter-explanation-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/filter-explanation-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/first-time-configuration-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/first-time-configuration-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/icons-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/icons-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/inside-editor-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/inside-editor-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/introductions-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/introductions-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-primary-category-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-primary-category-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/modal-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/modal-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/monorepo-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/monorepo-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/new-settings-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/new-settings-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/notifications-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/notifications-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/score_icon-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/score_icon-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/structured-data-blocks-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/structured-data-blocks-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/support-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/support-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/tailwind-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/tailwind-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/tooltips-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/tooltips-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/workouts-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/workouts-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-extensions-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-extensions-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-2160-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-2160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/all_around_seo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/block_editor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/copywriting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/crawlability.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/ecommerce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/hosting_and_server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/keyword_research.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/local.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/multilingual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/seo_for_beginners.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/seo_for_wp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/site_structure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/structured_data_for_beginners.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/understanding_structured_data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/academy/wp_for_beginners.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/acf-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/admin_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/ai-generator-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/ai-generator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/cornerstone_content.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/inclusive_language_analysis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/indexables_3_left_bubble_optm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/indexnow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/insights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/link_suggestions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/local_plugin_assistant.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/local_plugin_assistant.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/man_with_tablet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/mirrored_fit_bubble_man_1_optim.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/mirrored_fit_bubble_woman_1_optim.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/mirrored_fit_bubble_woman_2_optim.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/open_graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/plugin_subscription.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/question-mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/question-mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/readability_analysis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/rest_api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/seo_analysis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/slack_sharing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/succes_marieke_bubble_optm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/support-team.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/support-team.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/support/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/support/help_center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/support/support_forums.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/text_link_counter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/twitter_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/woo_plugin_assistant.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/woo_plugin_assistant.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/xml_sitemaps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-addon-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-addon-manager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-post-type.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-post-type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-rewrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-rewrite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-upgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-upgrade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-admin-bar-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-admin-bar-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-content-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-content-images.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-custom-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-custom-fields.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-primary-term.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-primary-term.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-rank.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-rank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-replace-vars.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-replace-vars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-shortlinker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-shortlinker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/language-utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/language-utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-ms.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-ms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-social.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-social.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-titles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-titles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-taxonomy-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-taxonomy-meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-author-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-author-sitemap-provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-cache-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-cache-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-image-parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-image-parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-router.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/wpseo-functions-deprecated.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/wpseo-functions-deprecated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/academy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/addon-installation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/admin-global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/admin-modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/analysis-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/api-client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/block-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/bulk-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/classic-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/crawl-settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/dashboard-widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/dynamic-blocks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/edit-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/editor-modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/elementor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals-components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals-contexts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals-redux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/analysis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/analysisReport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/chart.js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/componentsNew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/draftJs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/featureFlag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/jed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/propTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/reactHelmet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/redux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/reduxJsToolkit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/replacementVariableEditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/searchMetadataPreviews.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/socialMetadataForms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/styleGuide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/styledComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/externals/uiLibrary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/filter-explanation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/first-time-configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/frontend-inspector-resources.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/help-scout-beacon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/import.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/indexation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/installation-success.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/integrations-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/introductions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/languages/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/network-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/new-settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/post-edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/quick-edit-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/react-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/redirect-old-features-tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/reindex-links.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/structured-data-blocks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/term-edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/used-keywords-assessment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wincher-dashboard-widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wordproof-uikit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/workouts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/abstract-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/abstract-main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/migrations/adapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/migrations/adapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/migrations/migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/migrations/migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/migrations/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/migrations/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/orm.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/lib/orm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/algolia-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/connection-assistant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/edd-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/elementor-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/g2_logo_white_optm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/icon-arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/indexables_1_left_bubble_optm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/indexables_2_left_bubble_optm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/jetpack-boost-integration-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/jetpack-boost-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/jetpack-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/logo-g2-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/mastodon-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/motivated_bubble_woman_1_optim.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/semrush-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/ssp-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/star-rating-half.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/star-rating-star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/succes_marieke_bubble_optm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/tec-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/wincher-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/woocommerce-seo-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/wordproof-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/wp-recipe-maker-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/yoast-seo-simple-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/packages/js/images/yoast_loading_spinner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/addon-installation/addon-activate-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/addon-installation/addon-activate-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/addon-installation/addon-install-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/addon-installation/addon-install-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/configuration/first-time-configuration-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/abstract-aioseo-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/abstract-aioseo-settings-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-cleanup-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-custom-archive-settings-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-default-archive-settings-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-general-settings-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-posts-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-posttype-defaults-settings-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-taxonomy-settings-importing-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/aioseo/aioseo-validate-data-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/deactivate-conflicting-plugins-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/importing-action-interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/importing/importing-indexation-action-interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexables/indexable-head-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexables/indexable-head-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/abstract-indexing-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/abstract-indexing-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/abstract-link-indexing-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/abstract-link-indexing-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-general-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-general-indexation-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-indexation-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-type-archive-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-post-type-archive-indexation-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-term-indexation-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexable-term-indexation-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexing-complete-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexing-complete-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexing-prepare-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/indexing-prepare-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/limited-indexing-action-interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/limited-indexing-action-interface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/post-link-indexing-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/post-link-indexing-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/term-link-indexing-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/indexing/term-link-indexing-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/integrations-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/semrush/semrush-phrases-action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/semrush/semrush-phrases-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/wincher/wincher-account-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/wincher/wincher-keyphrases-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/actions/wincher/wincher-login-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/analytics/application/missing-indexables-collector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/analytics/application/to-be-cleaned-indexables-collector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/analytics/domain/missing-indexable-bucket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/analytics/domain/missing-indexable-count.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/analytics/domain/to-be-cleaned-indexable-bucket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/analytics/domain/to-be-cleaned-indexable-count.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/analytics/user-interface/last-completed-indexation-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-author-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-author-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-date-archive-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-date-archive-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-home-page-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-home-page-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-link-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-link-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-post-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-post-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-post-type-archive-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-post-type-archive-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-system-page-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-system-page-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-term-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/indexable-term-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/primary-term-builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/builders/primary-term-builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/commands/cleanup-command.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/commands/index-command.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/commands/index-command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/doing-post-quick-edit-save-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/doing-post-quick-edit-save-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/estimated-reading-time-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/estimated-reading-time-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/licenses-page-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/licenses-page-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/non-network-admin-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/admin/yoast-admin-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/attachment-redirections-enabled-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/deactivating-yoast-seo-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/import-tool-selected-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/new-settings-ui-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/news-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/news-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/non-multisite-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/not-admin-ajax-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/premium-active-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/premium-inactive-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/premium-inactive-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/primary-category-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/primary-category-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/robots-txt-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/settings-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/text-formality-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/elementor-edit-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/elementor-edit-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/jetpack-boost-active-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/jetpack-boost-not-premium-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/polylang-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/translatepress-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/wordproof-integration-active-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/third-party/wordproof-plugin-inactive-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/traits/admin-conditional-trait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/updated-importer-framework-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/user-can-manage-wpseo-options-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/user-can-publish-posts-and-pages-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/user-profile-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/wincher-automatically-track-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/wincher-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/wincher-enabled-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/wincher-token-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/wp-cron-enabled-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/xmlrpc-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/xmlrpc-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/yoast-admin-and-dashboard-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/yoast-admin-and-dashboard-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/yoast-tools-page-conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/conditionals/yoast-tools-page-conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/conflicting-plugins.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/indexing-reasons.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/indexing-reasons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/migrations/20210817092415_AddVersionColumnToIndexables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/migrations/20211020091404_AddObjectTimestamps.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/migrations/20230417083836_AddInclusiveLanguageScore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/oauth-client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/researcher-languages.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/researcher-languages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/schema-ids.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/schema-ids.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/schema-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/schema-types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/semrush-client.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/semrush-client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/wincher-client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/wincher-pkce-provider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/wordproof-app-config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/config/wordproof-translations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/content-type-visibility/application/content-type-visibility-dismiss-notifications.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/content-type-visibility/application/content-type-visibility-watcher-actions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/content-type-visibility/user-interface/content-type-visibility-dismiss-new-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/context/meta-tags-context.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/context/meta-tags-context.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/admin/class-helpscout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/admin/views/class-view-utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/frontend/breadcrumbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/frontend/breadcrumbs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/frontend/frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/frontend/frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/i18n/i18n-v3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/indexables-page-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/actions/settings-introduction-action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/conditionals/indexables-page-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/conditionals/schema-blocks-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/conditionals/the-events-calendar-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/conditionals/third-party/coauthors-plus-activated-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/conditionals/third-party/coauthors-plus-flag-conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/generators/schema/third-party/coauthor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/generators/schema/third-party/events-calendar-schema.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/helpers/indexables-page-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/helpers/input-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/indexables-page-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/old-premium-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/redirect-old-features-tab-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/social-templates-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/admin/unsupported-php-version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/schema-blocks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/third-party/coauthors-plus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/third-party/the-events-calendar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/third-party/wincher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/integrations/third-party/wordproof-integration-toggle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/routes/indexables-page-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/routes/settings-introduction-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/deprecated/src/schema-templates/assets/icons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/addon-activation-error-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/addon-activation-error-exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/addon-already-installed-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/addon-already-installed-exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/addon-installation-error-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/addon-installation-error-exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/user-cannot-activate-plugins-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/user-cannot-activate-plugins-exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/user-cannot-install-plugins-exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/addon-installation/user-cannot-install-plugins-exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/forbidden-property-mutation-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/importing/aioseo-validation-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/indexable/author-not-built-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/indexable/not-built-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/indexable/post-not-built-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/indexable/post-type-not-built-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/indexable/term-not-built-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/oauth/tokens/empty-property-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/oauth/tokens/empty-token-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/exceptions/oauth/tokens/failed-storage-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/assets/externals.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/assets/externals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/assets/languages.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/assets/languages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/assets/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/assets/plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/container.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generated/container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema-generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema-generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/abstract-schema-piece.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/abstract-schema-piece.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/author.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/breadcrumb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/howto.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/howto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/main-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/main-image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/organization.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/organization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/person.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/webpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/webpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/website.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/generators/schema/website.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/aioseo-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/asset-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/asset-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/attachment-cleanup-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/author-archive-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/author-archive-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/blocks-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/blocks-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/crawl-cleanup-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/curl-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/current-page-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/current-page-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/date-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/date-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/environment-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/environment-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/first-time-configuration-notice-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/image-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/image-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/import-cursor-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/import-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/indexable-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/indexable-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/indexable-to-postmeta-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/indexing-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/indexing-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/language-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/language-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/meta-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/meta-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/options-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/options-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/pagination-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/pagination-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/post-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/post-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/post-type-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/post-type-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/product-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/product-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/redirect-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/redirect-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/robots-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/robots-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/robots-txt-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/sanitization-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/article-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/article-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/html-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/html-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/image-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/image-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/replace-vars-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/schema/replace-vars-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/score-icon-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/short-link-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/short-link-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/social-profiles-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/string-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/string-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/taxonomy-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/taxonomy-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/url-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/url-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/wincher-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/woocommerce-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/woocommerce-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/wordproof-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/helpers/wpdb-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/initializers/crawl-cleanup-permalinks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/initializers/migration-runner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/initializers/migration-runner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/initializers/woocommerce.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/abstract-exclude-post-type.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/abstract-exclude-post-type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/academy-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/activation-cleanup-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/addon-installation/dialog-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/addon-installation/dialog-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/addon-installation/installation-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/addon-installation/installation-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/admin-columns-cache-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/admin-columns-cache-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/background-indexing-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/background-indexing-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/crawl-settings-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/deactivated-premium-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/first-time-configuration-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/first-time-configuration-notice-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/fix-news-dependencies-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/fix-news-dependencies-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/health-check-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/helpscout-beacon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/helpscout-beacon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/import-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/indexables-exclude-taxonomy-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-notification-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-notification-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-tool-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/indexing-tool-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/installation-success-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/integrations-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/link-count-columns-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/link-count-columns-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/menu-badge-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/menu-badge-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/old-configuration-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/redirect-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/redirects-page-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/workouts-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/admin/workouts-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/alerts/black-friday-product-editor-checklist-notification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/alerts/black-friday-promotion-notification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/alerts/black-friday-sidebar-checklist-notification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/alerts/jetpack-boost-pre-publish.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/alerts/webinar-promo-notification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/blocks/block-categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/blocks/block-categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/blocks/breadcrumbs-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/blocks/breadcrumbs-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/blocks/structured-data-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/blocks/structured-data-blocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/cleanup-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/cleanup-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/exclude-attachment-post-type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/exclude-oembed-cache-post-type.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/exclude-oembed-cache-post-type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/comment-link-fixer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/comment-link-fixer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/crawl-cleanup-basic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/crawl-cleanup-rss.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/crawl-cleanup-searches.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/feed-improvements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/open-graph-oembed.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/open-graph-oembed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/redirects.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/redirects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/robots-txt-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/rss-footer-embed.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/front-end/rss-footer-embed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/settings-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/support-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/exclude-elementor-post-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/exclude-elementor-post-types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/exclude-woocommerce-post-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/exclude-woocommerce-post-types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/web-stories-post-edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/web-stories.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/web-stories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/wincher-publish.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/woocommerce-permalinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/woocommerce-permalinks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/woocommerce-post-edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/woocommerce.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/woocommerce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/wordproof.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/wpml.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/third-party/wpml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/uninstall-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/addon-update-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/addon-update-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/auto-update-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/auto-update-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-ancestor-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-ancestor-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-attachment-watcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-author-archive-watcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-author-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-author-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-home-page-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-home-page-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-permalink-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-permalink-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-post-type-archive-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-post-type-archive-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-post-type-change-watcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-post-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-post-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-taxonomy-change-watcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-term-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/indexable-term-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/option-wpseo-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/option-wpseo-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/primary-category-quick-edit-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/primary-category-quick-edit-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/primary-term-watcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/primary-term-watcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/search-engines-discouraged-watcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/watchers/woocommerce-beta-editor-watcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/xmlrpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/integrations/xmlrpc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/application/ai-generate-titles-and-descriptions-introduction-upsell.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/application/current-page-trait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/application/introductions-collector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/application/user-allowed-trait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/application/version-trait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/domain/introduction-interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/domain/introduction-item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/domain/introductions-bucket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/domain/invalid-user-id-exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/infrastructure/introductions-seen-repository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/infrastructure/wistia-embed-permission-repository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/user-interface/introductions-integration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/user-interface/introductions-seen-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/introductions/user-interface/wistia-embed-permission-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/memoizers/meta-tags-context-memoizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/memoizers/meta-tags-context-memoizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/indexable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/indexable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/seo-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/models/seo-meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/abstract-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/abstract-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/archive-adjacent-trait.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/archive-adjacent-trait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-author-archive-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-author-archive-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-home-page-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-home-page-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-post-type-archive-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-post-type-archive-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-post-type-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-post-type-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-static-posts-page-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-static-posts-page-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-term-archive-presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presentations/indexable-term-archive-presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/abstract-indexable-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/abstract-indexable-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/abstract-indexable-tag-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/abstract-indexable-tag-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/beta-badge-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/help-link-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/help-link-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-error-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-error-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-failed-notification-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-failed-notification-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-notification-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/indexing-notification-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/light-switch-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/light-switch-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/notice-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/premium-badge-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/premium-badge-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/search-engines-discouraged-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/sidebar-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/admin/woocommerce-beta-editor-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/breadcrumbs-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/breadcrumbs-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/meta-author-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/meta-description-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/meta-description-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/article-modified-time-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/article-modified-time-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/article-published-time-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/article-published-time-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/description-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/description-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/image-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/image-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/title-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/open-graph/title-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/robots-txt-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/score-icon-presenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/slack/enhanced-data-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/slack/enhanced-data-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/twitter/card-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/twitter/card-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/twitter/image-presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/presenters/twitter/image-presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/promotions/application/promotion-manager-interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/promotions/application/promotion-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/promotions/domain/abstract-promotion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/promotions/domain/black-friday-checklist-promotion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/promotions/domain/black-friday-promotion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/promotions/domain/promotion-interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/promotions/domain/time-interval.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/repositories/indexable-cleanup-repository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/repositories/indexable-repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/repositories/indexable-repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/repositories/seo-links-repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/repositories/seo-links-repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/abstract-action-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/abstract-indexation-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/abstract-indexation-route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/first-time-configuration-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/importing-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/integrations-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/meta-search-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/wincher-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/workouts-route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/yoast-head-rest-field.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/routes/yoast-head-rest-field.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/default-tagline-check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/default-tagline-reports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/default-tagline-runner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/health-check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/links-table-check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/links-table-reports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/links-table-runner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/myyoast-api-request-factory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/page-comments-check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/page-comments-reports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/page-comments-runner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/postname-permalink-check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/postname-permalink-reports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/postname-permalink-runner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/report-builder-factory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/report-builder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/reports-trait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/health-check/runner-interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/importing/aioseo/aioseo-replacevar-service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/importing/aioseo/aioseo-robots-provider-service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/importing/aioseo/aioseo-robots-transformer-service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/importing/aioseo/aioseo-social-images-provider-service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/importing/conflicting-plugins-service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/importing/importable-detector-service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/services/indexables/indexable-version-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/classes-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/classes-surface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/helpers-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/helpers-surface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/meta-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/meta-surface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/open-graph-helpers-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/open-graph-helpers-surface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/schema-helpers-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/schema-helpers-surface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/twitter-helpers-surface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/twitter-helpers-surface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/values/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/surfaces/values/meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/user-profiles-additions/user-interface/user-profiles-additions-ui.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/values/indexables/indexable-builder-versions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/values/oauth/oauth-token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/values/robots/directive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/values/robots/user-agent-list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/values/robots/user-agent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/wordpress/wrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/wordpress/wrapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/wrappers/wp-remote-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/src/wrappers/wp-remote-handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/platform_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/BodySummarizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/BodySummarizerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/ClientInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/ClientInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/ClientTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/CookieJar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/CookieJar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/SetCookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Cookie/SetCookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/BadResponseException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/BadResponseException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/ConnectException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/ConnectException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/GuzzleException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/GuzzleException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/RequestException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Exception/RequestException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/EasyHandle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/EasyHandle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/HeaderProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/MockHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/MockHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/Proxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/Proxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/StreamHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Handler/StreamHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/HandlerStack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/MessageFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/MessageFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/MessageFormatterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Middleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Pool.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Pool.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/RedirectMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/RedirectMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/RequestOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/RequestOptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/RetryMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/RetryMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/TransferStats.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/TransferStats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/Utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/functions_include.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/guzzle/src/functions_include.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/AggregateException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/AggregateException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/CancellationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/CancellationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Coroutine.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Coroutine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Each.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/EachPromise.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/EachPromise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/FulfilledPromise.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/FulfilledPromise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Is.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Promise.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Promise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/PromiseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/PromiseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/PromisorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/PromisorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/RejectedPromise.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/RejectedPromise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/RejectionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/RejectionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/TaskQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/TaskQueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/TaskQueueInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/TaskQueueInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/promises/src/Utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/AppendStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/AppendStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/BufferStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/BufferStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/CachingStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/CachingStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/DroppingStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/DroppingStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Exception/MalformedUriException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/FnStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/FnStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/HttpFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/InflateStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/InflateStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/LazyOpenStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/LazyOpenStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/LimitStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/LimitStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/MessageTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/MessageTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/MimeType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/MultipartStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/MultipartStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/NoSeekStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/NoSeekStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/PumpStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/PumpStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Rfc7230.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Rfc7230.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/ServerRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/ServerRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Stream.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Stream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/StreamDecoratorTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/StreamDecoratorTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/StreamWrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/StreamWrapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/UploadedFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/UploadedFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Uri.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Uri.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/UriComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/UriNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/UriNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/UriResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/UriResolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/guzzlehttp/psr7/src/Utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/AbstractProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/AbstractProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/Exception/IdentityProviderException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/Exception/IdentityProviderException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/GenericProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/GenericProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Token/AccessToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Token/AccessToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Token/AccessTokenInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Token/AccessTokenInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Tool/QueryBuilderTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Tool/QueryBuilderTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-client/src/ClientExceptionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-client/src/ClientInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-client/src/NetworkExceptionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-client/src/RequestExceptionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-factory/src/RequestFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-factory/src/ResponseFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-factory/src/ServerRequestFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-factory/src/StreamFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-factory/src/UploadedFileFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-factory/src/UriFactoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/MessageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/MessageInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/RequestInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/RequestInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/ResponseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/ResponseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/ServerRequestInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/ServerRequestInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/StreamInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/StreamInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/UploadedFileInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/UploadedFileInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/UriInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/http-message/src/UriInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/AbstractLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/AbstractLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/LoggerAwareTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/LoggerAwareTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/LoggerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/LoggerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/LoggerTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/LoggerTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/NullLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/psr/log/Psr/Log/NullLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/deprecation-contracts/function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Config/AppConfigInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Config/Config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Config/DefaultAppConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Config/EnvironmentConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Config/OptionsConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Config/RoutesConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Config/ScriptsConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/AuthenticationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/CertificateController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/IdentityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/NoticeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/PostEditorDataController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/PostEditorTimestampController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/RestApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/SettingsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/TimestampController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/DataTransferObjects/TimestampData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Exceptions/ValidationException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/AdminHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/AppConfigHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/AssetHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/AuthenticationHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/CertificateHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/ClassicNoticeHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/EnvironmentHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/EscapeHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/OptionsHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/PostEditorHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/PostMetaHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/PostTypeHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/RedirectHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/ReflectionHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/RestApiHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/SanitizeHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/SchemaHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/SettingsHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/StringHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/TimestampHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Helpers/TransientHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Support/Api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Support/Authentication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Support/Loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Support/Settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Support/Template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Support/Timestamp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/Translations/TranslationsInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/WordPressSDK.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/build/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-block-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-classic-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-elementor-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wpml-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wpml-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/header.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,29 +962,65 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+            <state relative-caret-position="1800">
+              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/footer.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+            <state relative-caret-position="324">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/front-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-273">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1079">
+            <state relative-caret-position="1780">
               <caret line="89" column="7" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="7" />
             </state>
           </provider>
@@ -65,15 +1049,16 @@
       <replace>&lt;?php echo get_bloginfo('template_directory') ?&gt;/images/</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nextage1/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/front-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nextage1/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/page-design_architect.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/page-construction.php" />
@@ -86,6 +1071,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/tag.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/archive-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nextage1/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nextage1/footer.php" />
       </list>
     </option>
   </component>
@@ -95,12 +1082,14 @@
     <option name="width" value="1936" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,19 +1119,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/nextage1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\nextage1\wp-content\themes\nextage1" />
       <recent name="C:\xampp\htdocs\nextage1" />
+      <recent name="C:\xampp\htdocs\nextage1\wp-content\themes\nextage1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,21 +1161,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3938000" />
+    <option name="totallyTimeSpent" value="5946000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-8" width="1936" height="1048" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -194,10 +1176,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.68524593" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,8 +1207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="-273">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -230,42 +1218,12 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/kantan-cgi/default.trc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/nav-below.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#23#29#1" expanded="true" />
-            <element signature="e#23#29#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/nav-below-single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#23#29#1" expanded="true" />
-            <element signature="e#30#36#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/page-faqs.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="29" column="102" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="102" />
-          <folding>
-            <element signature="e#2145#2150#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/nav-below.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/nav-below-single.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/page-faqs.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
+        <state relative-caret-position="546">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
@@ -326,11 +1284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/single-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/single-product.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -378,22 +1332,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="55" lean-forward="true" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        <state relative-caret-position="1800">
+          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1079">
+        <state relative-caret-position="1780">
           <caret line="89" column="7" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>

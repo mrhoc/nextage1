@@ -2,7 +2,8 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="robots" content="index, follow, archive">
 	<meta name="twitter:title">
 	<meta name="twitter:description" content="">
@@ -18,11 +19,10 @@
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
 	<meta property="og:image:secure_url" content="http://nextage1.co.jp/images/ogp_pc.jpg">
-	<title></title>
-	<meta name="description" content="">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/lightbox.min.css">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/style.css">
+	<?php wp_head(); ?>
 </head>
 <body class="index">
 <header class="header">
