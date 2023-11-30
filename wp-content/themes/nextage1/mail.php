@@ -87,7 +87,7 @@ $confirmDsp = 1;
 $jumpPage = 1;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。（相対パスでも基本的には問題ないです）
-$thanksPage = "./thanks.html";
+$thanksPage = "/thanks/";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 1;
@@ -312,26 +312,26 @@ else if($confirmDsp == 1){
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 <meta name="format-detection" content="telephone=no">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese" rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="/wp-content/themes/nextage1/css/style.css">
 <title><?php echo $confirmTitle;?></title>
 </head>
 <body>
 <header class="header">
       <div class="container">
-        <p class="title"><a href="./"><img src="images/header_logo_pc.png" alt="NEXTAGE"/></a></p>
+        <p class="title"><a href="/"><img src="images/header_logo_pc.png" alt="NEXTAGE"/></a></p>
         <nav class="nav gNav">
           <button type="button" id="gNavSwitch">
             <div></div>
           </button>
           <ul class="gNav-list">
-            <li class="gNav-item"><a href="./">TOP</a></li>
-            <li class="gNav-item"><a href="./solution.html">SOLUTION</a></li>
-            <li class="gNav-item"><a href="./design_architect.html">DESIGN&amp;ARCHITECT</a></li>
-            <li class="gNav-item"><a href="./construction.html">CONSTRUCTION</a></li>
-            <li class="gNav-item"><a href="./works.html">WORKS</a></li>
-            <li class="gNav-item"><a href="./company.html">COMPANY</a></li>
-            <li class="gNav-item"><a href="./recruit.html">RECRUIT</a></li>
-            <li class="gNav-item"><a href="./contact.html">CONTACT</a></li>
+            <li class="gNav-item"><a href="/">TOP</a></li>
+            <li class="gNav-item"><a href="/solution/">SOLUTION</a></li>
+            <li class="gNav-item"><a href="/design_architect/">DESIGN&amp;ARCHITECT</a></li>
+            <li class="gNav-item"><a href="/construction/">CONSTRUCTION</a></li>
+            <li class="gNav-item"><a href="/works/">WORKS</a></li>
+            <li class="gNav-item"><a href="/company/">COMPANY</a></li>
+            <li class="gNav-item"><a href="/recruit/">RECRUIT</a></li>
+            <li class="gNav-item"><a href="/contact/">CONTACT</a></li>
           </ul>
         </nav>
       </div>
@@ -340,8 +340,8 @@ else if($confirmDsp == 1){
       <div class="container section">
         <h1 class="title">
           <picture>
-            <source srcset="images/ttl_confirmation_sp.png" media="(max-width: 750px)"/>
-            <img src="images/ttl_confirmation_pc.png" alt="CONFIRMATION"/>
+            <source srcset="/wp-content/themes/nextage1/images/ttl_confirmation_sp.png" media="(max-width: 750px)"/>
+            <img src="/wp-content/themes/nextage1/images/ttl_confirmation_pc.png" alt="CONFIRMATION"/>
           </picture>
         </h1>
 <!-- ▲ Headerやその他コンテンツなど　※自由に編集可 ▲-->
@@ -381,12 +381,12 @@ else if($confirmDsp == 1){
 -->
     <footer class="footer">
       <div class="container">
-        <figure><img src="images/footer_logo_pc.png" alt=""/></figure>
+        <figure><img src="/wp-content/themes/nextage1/images/footer_logo_pc.png" alt=""/></figure>
         <p class="copyright">Copyright&copy; NEXTAGE .Co.Ltd All Rights Reserved.</p>
       </div>
     </footer>
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/functions.js"></script>
+    <script src="/wp-content/themes/nextage1/js/jquery-1.12.4.min.js"></script>
+    <script src="/wp-content/themes/nextage1/js/functions.js"></script>
   </body>
 </html>
 <?php
