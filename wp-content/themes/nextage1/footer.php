@@ -1,5 +1,5 @@
 <div class="section contact bg_primary">
-	<div class="container center"><a class="btn" href="/contact/">
+	<div class="container center"><a class="btn" href="/contact">
 			<picture>
 				<source srcset="<?php echo get_bloginfo('template_directory')?>/images/cmn_contact_sp.png" media="(max-width: 750px)">
 				<img src="<?php echo get_bloginfo('template_directory')?>/images/cmn_contact_pc.png" alt="CONTACT">

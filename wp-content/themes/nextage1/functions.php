@@ -134,3 +134,16 @@ function custom_post_type_pagination() {
 		echo '</ul>';
 	}
 }
+
+// Hàm ngăn chặn WordPress tự động thêm dấu gạch chéo cuối cùng vào URL
+function remove_trailing_slash($string) {
+	if (is_feed()) {
+		return $string;
+	} else {
+		return untrailingslashit($string);
+	}
+}
+
+// Áp dụng hàm cho các hook
+add_filter('user_trailingslashit', 'remove_trailing_slash');
+add_filter('redirect_canonical', 'remove_trailing_slash');

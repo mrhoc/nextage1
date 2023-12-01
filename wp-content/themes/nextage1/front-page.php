@@ -52,37 +52,37 @@
 		<div class="container">
 			<h2 class="title sr-only">サービス</h2>
 			<ul class="service-list">
-				<li class="service-item solution"><a href="/solution/">
+				<li class="service-item solution"><a href="/solution">
 						<picture>
 							<source srcset="<?php echo get_bloginfo('template_directory')?>/images/img_service_solution_sp.jpg" media="(max-width: 750px)">
 							<img src="<?php echo get_bloginfo('template_directory')?>/images/img_service_solution_pc.jpg" alt="SOLUTION - 建築ソリューション">
 						</picture>
 					</a></li>
-				<li class="service-item design"><a href="/design_architect/">
+				<li class="service-item design"><a href="/design_architect">
 						<picture>
 							<source srcset="<?php echo get_bloginfo('template_directory')?>/images/img_service_design_sp.jpg" media="(max-width: 750px)">
 							<img src="<?php echo get_bloginfo('template_directory')?>/images/img_service_design_pc.jpg" alt="DESIGN&amp;ARCHITECT - 内装工事、設計、デザイン">
 						</picture>
 					</a></li>
-				<li class="service-item construction"><a href="/construction/">
+				<li class="service-item construction"><a href="/construction">
 						<picture>
 							<source srcset="<?php echo get_bloginfo('template_directory')?>/images/img_service_construction_sp.jpg" media="(max-width: 750px)">
 							<img src="<?php echo get_bloginfo('template_directory')?>/images/img_service_construction_pc.jpg" alt="CONSTRUCTION - 電気通信工事">
 						</picture>
 					</a></li>
-				<li class="service-item works"><a href="/works/">
+				<li class="service-item works"><a href="/works">
 						<picture>
 							<source srcset="<?php echo get_bloginfo('template_directory')?>/images/img_service_works_sp.jpg" media="(max-width: 750px)">
 							<img src="<?php echo get_bloginfo('template_directory')?>/images/img_service_works_pc.jpg" alt="WORKS - 施工実績">
 						</picture>
 					</a></li>
-				<li class="service-item company"><a href="/company/">
+				<li class="service-item company"><a href="/company">
 						<picture>
 							<source srcset="<?php echo get_bloginfo('template_directory')?>/images/img_service_company_sp.jpg" media="(max-width: 750px)">
 							<img src="<?php echo get_bloginfo('template_directory')?>/images/img_service_company_pc.jpg" alt="COMPANY - 会社概要">
 						</picture>
 					</a></li>
-				<li class="service-item recruit"><a href="/recruit/">
+				<li class="service-item recruit"><a href="/recruit">
 						<picture>
 							<source srcset="<?php echo get_bloginfo('template_directory')?>/images/img_service_recruit_sp.jpg" media="(max-width: 750px)">
 							<img src="<?php echo get_bloginfo('template_directory')?>/images/img_service_recruit_pc.jpg" alt="RECRUIT - 採用情報">

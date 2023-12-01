@@ -34,13 +34,13 @@
 			</button>
 			<ul class="gNav-list">
 				<li class="gNav-item"><a href="/">TOP</a></li>
-				<li class="gNav-item"><a href="<?php echo get_bloginfo('template_url')?>/solution">SOLUTION</a></li>
-				<li class="gNav-item"><a href="<?php echo get_bloginfo('template_url')?>/design_architect">DESIGN&amp;ARCHITECT</a></li>
-				<li class="gNav-item"><a href="<?php echo get_bloginfo('template_url')?>/construction">CONSTRUCTION</a></li>
-				<li class="gNav-item"><a href="<?php echo get_bloginfo('template_url')?>/works">WORKS</a></li>
-				<li class="gNav-item"><a href="<?php echo get_bloginfo('template_url')?>/company">COMPANY</a></li>
-				<li class="gNav-item"><a href="<?php echo get_bloginfo('template_url')?>/recruit">RECRUIT</a></li>
-				<li class="gNav-item"><a href="<?php echo get_bloginfo('template_url')?>/contact">CONTACT</a></li>
+				<li class="gNav-item"><a href="/solution">SOLUTION</a></li>
+				<li class="gNav-item"><a href="/design_architect">DESIGN&amp;ARCHITECT</a></li>
+				<li class="gNav-item"><a href="/construction">CONSTRUCTION</a></li>
+				<li class="gNav-item"><a href="/works">WORKS</a></li>
+				<li class="gNav-item"><a href="/company">COMPANY</a></li>
+				<li class="gNav-item"><a href="/recruit">RECRUIT</a></li>
+				<li class="gNav-item"><a href="/contact">CONTACT</a></li>
 			</ul>
 		</nav>
 	</div>
