@@ -224,7 +224,7 @@ h1.title {
 }
 
 .section.service {
-  padding: 0;
+  padding: 0 0 50px;
 }
 
 @media screen and (max-width: 767px) {
@@ -547,6 +547,7 @@ p.lead {
   .service-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 auto;
   }
 }

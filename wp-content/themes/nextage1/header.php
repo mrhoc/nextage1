@@ -22,8 +22,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/lightbox.min.css">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/style.css">
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/custome.css">
 	<?php wp_head(); ?>
 </head>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/jv_ID/sdk.js#xfbml=1&version=v18.0&appId=1566928927110743" nonce="i0CDK8yS"></script>
 <body class="index">
 <header class="header">
 	<div class="container">
