@@ -253,8 +253,9 @@ html {
   color: #40b7ca;
   font-size: 24px;
   line-height: 1.25;
-  margin-bottom: 60px;
-  letter-spacing: 8px; }
+  margin-bottom: 60px; }
+  .ttl-comp02.let-8 {
+    letter-spacing: 8px; }
 
 .navigation {
   margin-top: 30px; }

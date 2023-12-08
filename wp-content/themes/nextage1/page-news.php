@@ -2,7 +2,7 @@
 	<main class="page-news">
 		<div class="section">
 			<div class="container">
-				<h1 class="ttl-comp02">NEWS</h1>
+				<h1 class="ttl-comp02 let-8">NEWS</h1>
 				<ul class="list-cat">
 					<li><a <?php echo is_page('news') ? 'class="active"' : ''; ?> href="/news">ALL</a></li>
 					<?php

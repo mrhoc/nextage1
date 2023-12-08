@@ -1,7 +1,7 @@
 <?php get_header() ?>
 	<main class="page-news section">
 		<div class="container">
-			<h1 class="ttl-comp02">NEWS</h1>
+			<h1 class="ttl-comp02 let-8">NEWS</h1>
 			<div class="page-wrap ">
 				<div class="page-left">
 
