@@ -10,9 +10,7 @@ html {
   }
 }
 .footer{
-  @include mq(){
-    padding-bottom: 30px;
-  }
+  padding-bottom: 30px;
 }
 .fb-page,
 .fb-page span,
@@ -238,6 +236,11 @@ html {
     max-width: 1040px;
     margin-left: auto;
     margin-right: auto;
+    @include mq(){
+      .fb{
+        margin-bottom: 30px;
+      }
+    }
 
     & > * {
       width: 50%;

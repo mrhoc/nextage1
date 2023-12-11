@@ -7,5 +7,5 @@
 		       id="ctl00_mdl342_ctl00_Search_txtSearch" title="Tìm kiếm" name="s"
 		       class="searchinput" autocomplete="off" placeholder="Tìm kiếm"/>
 	</label>
-	<button type="submit" class="search-submit"><span class="screen-reader-text">Tìm kiếm</span></button>
+	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
 </form>

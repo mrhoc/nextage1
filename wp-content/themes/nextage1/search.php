@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : ?>
 
-	<main>
+	<main class="section">
 		<div id="ctl00_divCenter" class="middle-fullwidth">
 			<div class="uk-container" style="padding-top: 120px;">
 				<div class="search-page">
 					<div class="search-page-top">
 						<div class="page-header">
-							<h1>Kết Quả Tìm kiếm</h1>
+							<h1>日本語に翻訳する</h1>
 						</div>
 
 						<span id="ctl00_mainContent_lblMessage"></span>
@@ -60,16 +60,16 @@
 
 
 		</div>
-
-
 	</main>
 
 <?php else : ?>
-	<article id="post-0" class="post no-results not-found">
+	<main class="section">
+		<article id="post-0" class="post no-results not-found">
 		<div class="entry-content" itemprop="mainContentOfPage">
-			<p><?php esc_html_e('Không tìm thấy kết quả tìm kiếm', 'blankslate'); ?></p>
+			<p class="centered" style="text-align: center;"><?php esc_html_e('検索結果がありません。', 'blankslate'); ?></p>
 		</div>
 	</article>
+	</main>
 <?php endif; ?>
 <?php get_footer(); ?>
 

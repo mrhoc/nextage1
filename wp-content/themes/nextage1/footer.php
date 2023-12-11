@@ -19,7 +19,7 @@
 				     data-show-facepile="false"></div>
 			</div>
 			<div class="insta">
-				<a href="https://www.instagram.com/" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/images/bnr_instagram.jpg" alt=""></a>
+				<a href="https://www.instagram.com/nextage1.inc/" target="_blank"><img src="<?php echo get_bloginfo('template_directory')?>/images/bnr_instagram.jpg" alt=""></a>
 			</div>
 		</div>
 	</div>

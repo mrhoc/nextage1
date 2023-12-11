@@ -9,9 +9,8 @@ html {
   .page-news {
     padding-bottom: 0; } }
 
-@media screen and (max-width: 767px) {
-  .footer {
-    padding-bottom: 30px; } }
+.footer {
+  padding-bottom: 30px; }
 
 .fb-page,
 .fb-page span,
@@ -190,6 +189,9 @@ html {
     max-width: 1040px;
     margin-left: auto;
     margin-right: auto; }
+    @media screen and (max-width: 767px) {
+      .sec-social .list-social .fb {
+        margin-bottom: 30px; } }
     .sec-social .list-social > * {
       width: 50%;
       padding: 0px 10px; }

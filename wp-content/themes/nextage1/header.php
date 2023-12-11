@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="robots" content="index, follow, archive">
+<!--	<meta name="robots" content="index, follow, archive">-->
 	<meta name="twitter:title">
 	<meta name="twitter:description" content="">
 	<meta name="twitter:card" content="summary_large_image">
@@ -22,7 +22,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/lightbox.min.css">
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/style.css">
-	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/custome.css">
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory')?>/css/custome.css?v1">
 	<?php wp_head(); ?>
 </head>
 <div id="fb-root"></div>
