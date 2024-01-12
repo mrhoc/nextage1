@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="345eedfe-2759-4f87-adc4-dba5c06f50c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/css/custome.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/css/custome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/css/custome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/css/custome.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/formsearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/formsearch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/scss/custome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/scss/custome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/css/custome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/scss/custome.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +36,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -64,12 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="n#article#0;n#!!top" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="1200">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -83,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -96,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/formsearch.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -189,7 +178,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/js/functions.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/scss/_vars.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/page-works.php" />
@@ -206,11 +194,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/search.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/404.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/nextage1/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1928" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1048" />
   </component>
@@ -220,8 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,12 +223,6 @@
               <item name="nextage1" type="b2602c69:ProjectViewProjectNode" />
               <item name="nextage1" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nextage1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nextage1" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="ai1wm-backups" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nextage1" type="b2602c69:ProjectViewProjectNode" />
@@ -348,18 +332,20 @@
       <workItem from="1701324398207" duration="9000000" />
       <workItem from="1701849546642" duration="36981000" />
       <workItem from="1701999578663" duration="6407000" />
-      <workItem from="1702266369879" duration="1401000" />
+      <workItem from="1702266369879" duration="2119000" />
+      <workItem from="1702542450537" duration="371000" />
+      <workItem from="1702649001931" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60445000" />
+    <option name="totallyTimeSpent" value="61552000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="0" width="1936" height="1048" extended-state="0" />
+    <frame x="240" y="129" width="1440" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15072463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,7 +359,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32896176" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28196722" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5224044" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -502,18 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="122" column="20" lean-forward="true" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
-          <folding>
-            <element signature="e#29#671#0#HTML" />
-            <element signature="e#1358#2546#0#HTML" />
-            <element signature="e#673#3308#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/images/next.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -635,52 +609,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/front-page.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/css/custome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        <state relative-caret-position="640">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/images/default-no-img.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/scss/custome.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/css/custome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/formsearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="n#article#0;n#!!top" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -694,14 +633,52 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/formsearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/images/default-no-img.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/nextage1/page-company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
         </state>
       </provider>
     </entry>

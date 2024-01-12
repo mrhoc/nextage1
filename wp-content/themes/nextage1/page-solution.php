@@ -1,5 +1,19 @@
 <?php get_header() ?>
 	<main>
+		<div class="section hero">
+			<figure class="fluid">
+				<picture>
+					<source srcset="<?php echo get_bloginfo('template_directory') ?>/images/bg_solution_sp.jpg" media="(max-width: 750px)"><img src="<?php echo get_bloginfo('template_directory') ?>/images/bg_solution_pc.jpg" alt="">
+				</picture>
+			</figure>
+			<div class="container">
+				<figure class="figure">
+					<picture>
+						<source srcset="<?php echo get_bloginfo('template_directory') ?>/images/ttl_solution_sp.png" media="(max-width: 750px)"><img src="<?php echo get_bloginfo('template_directory') ?>/images/ttl_solution_pc.png" alt="SOLUTION">
+					</picture>
+				</figure>
+			</div>
+		</div>
 		<article class="article">
 			<div class="container fluid lead bg">
 				<h1 class="title">建築ソリューション</h1>

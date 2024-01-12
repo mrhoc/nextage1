@@ -37,7 +37,7 @@
 							</tr>
 							<tr>
 								<th>勤務地</th>
-								<td>本社、神田営業所</td>
+								<td>本社</td>
 							</tr>
 							<tr>
 								<th>休日休暇</th>
@@ -69,7 +69,7 @@
 							</tr>
 							<tr>
 								<th>勤務地</th>
-								<td>本社、神田営業所</td>
+								<td>本社</td>
 							</tr>
 							<tr>
 								<th>休日休暇</th>
@@ -83,37 +83,7 @@
 							</tr>
 						</table>
 					</div>
-					<div class="job-item">
-						<h2 class="title">電気工事士</h2>
-						<table class="detail">
-							<tr>
-								<th>募集職種</th>
-								<td>電気工事士</td>
-							</tr>
-							<tr>
-								<th>業務内容</th>
-								<td>集合住宅等での電気通信工事<br>エアコン工事</td>
-							</tr>
-							<tr>
-								<th>応募資格</th>
-								<td>要普通免許<br>要普通免許<br>有資格者優遇(電気工事士)<br>電気工事、電気通信工事の経験</td>
-							</tr>
-							<tr>
-								<th>勤務地</th>
-								<td>静岡</td>
-							</tr>
-							<tr>
-								<th>休日休暇</th>
-								<td>
-									日曜日<br>祝日<br>夏季<br>年末年始<br>年次有給休<br>慶弔<br>出産<br>育児
-								</td>
-							</tr>
-							<tr>
-								<th>福利厚生</th>
-								<td>各種社会保険</td>
-							</tr>
-						</table>
-					</div>
+
 				</div>
 			</section>
 		</article>

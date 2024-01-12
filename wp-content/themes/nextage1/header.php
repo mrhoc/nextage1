@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--	<meta name="robots" content="index, follow, archive">-->
+	<!--	<meta name="robots" content="index, follow, archive">-->
 	<meta name="twitter:title">
 	<meta name="twitter:description" content="">
 	<meta name="twitter:card" content="summary_large_image">
@@ -26,8 +26,9 @@
 	<?php wp_head(); ?>
 </head>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/jv_ID/sdk.js#xfbml=1&version=v18.0&appId=1566928927110743" nonce="i0CDK8yS"></script>
-<body class="index">
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v18.0&appId=1566928927110743" nonce="naVUEEPI"></script>
+<body class="<?php if (is_home() || is_front_page()) { echo 'index'; } ?>">
+
 <header class="header">
 	<div class="container">
 		<h1 class="title"><a href="/"><img src="<?php echo get_bloginfo('template_directory')?>/images/header_logo_pc.png" alt="NEXTAGE - 未来を繋ぐ、未来に繋ぐ - "></a></h1>
@@ -39,7 +40,7 @@
 				<li class="gNav-item"><a href="/">TOP</a></li>
 				<li class="gNav-item"><a href="/solution">SOLUTION</a></li>
 				<li class="gNav-item"><a href="/design_architect">DESIGN&amp;ARCHITECT</a></li>
-				<li class="gNav-item"><a href="/construction">CONSTRUCTION</a></li>
+				<!--<li class="gNav-item"><a href="/construction">CONSTRUCTION</a></li>-->
 				<li class="gNav-item"><a href="/works">WORKS</a></li>
 				<li class="gNav-item"><a href="/company">COMPANY</a></li>
 				<li class="gNav-item"><a href="/recruit">RECRUIT</a></li>

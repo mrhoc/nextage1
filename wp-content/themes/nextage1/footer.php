@@ -1,4 +1,3 @@
-
 <div class="section contact bg_primary">
 	<div class="container center"><a class="btn" href="/contact">
 			<picture>
@@ -11,9 +10,9 @@
 	<div class="container">
 		<div class="list-social">
 			<div class="fb">
-<!--				<a href="https://facebook.com" target="_blank"><img src="--><?php //echo get_bloginfo('template_directory')?><!--/images/bnr_facebook.jpg" alt=""></a>-->
+				<!--				<a href="https://facebook.com" target="_blank"><img src="--><?php //echo get_bloginfo('template_directory')?><!--/images/bnr_facebook.jpg" alt=""></a>-->
 				<div class="fb-page"
-				     data-href="https://www.facebook.com/facebook"
+				     data-href="https://www.facebook.com/profile.php?id=100066565693998"
 				     data-width="500"
 				     data-hide-cover="false"
 				     data-show-facepile="false"></div>
